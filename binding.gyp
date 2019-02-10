@@ -3,7 +3,7 @@
         {
             'target_name': 'vad',
             'product_extension': 'node',
-            'type': 'shared_library',
+            'type': 'static_library',
             'defines': [],
             'include_dirs': ["<!(node -e \"require('nan')\")", "./src"],
             'sources': [
